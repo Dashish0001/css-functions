@@ -1,0 +1,136 @@
+
+/* =================================
+   1. GLOBAL RESET
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =================================
+   2. BODY
+================================= */
+
+body {
+    background-color: #0b0d17;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* =================================
+   3. MAIN CONTAINER
+================================= */
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   
+}
+
+/* =================================
+   4. PRODUCT CARD
+================================= */
+
+.product-card {
+   width: min(100%, 420px);
+    background: #151a2d;
+    padding: max(20px, 3vw);
+    border-radius: 24px;
+    border: 1px solid #292f49;
+    box-shadow: 0 20px 60px rgba(0,0,0.4);
+}
+
+/* =================================
+   5. CARD HEADER
+================================= */
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.badge {
+    font: size 11px;
+    padding: 6px 12px;
+    border: radius 50px;
+}
+
+.version {
+    font-size: 12px;
+}
+
+/* =================================
+   6. CARD ICON
+================================= */
+
+.card-icon {
+    width: 64px;
+    height:64px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 32px;
+    margin: 30px 0 20px;
+}
+
+/* =================================
+   7. CARD CONTENT
+================================= */
+
+.card-content h1 {
+    font-size: clamp(24px, 5vw, 40px);
+    margin-bottom: 12px;
+}
+
+.card-content p {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* =================================
+   8. FEATURES
+================================= */
+
+.card-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 25px 0;
+}
+/* =================================
+   9. CARD FOOTER
+================================= */
+
+.card-footer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.price h2 {
+    font-size: 24px;
+}
+
+.price span {
+    font-size: 12px;
+}
+
+/* =================================
+   10. BUTTON
+================================= */
+
+.explore-btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    background: #765776ff;
+    color: white;
+    cursor: pointer;
+}
